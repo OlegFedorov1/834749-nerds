@@ -1,37 +1,538 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
 /*===========================Open. Css for Main class="container======================*/
 /*===========================Close. Css for Main class="container=====================*/
 
 
 
 /*===========================Open. Css for Section class="main-heder-navigation"======*/
+.main-header {
+    background-color: #eeeeee;
+}
+
+.main-header-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #eeeeee;
+}
+
+.header-site-navigation,
+.header-basket {
+    list-style: none;
+}
+
+.header-site-navigation a,
+.header-basket a {
+    color: #000000;
+}
+/*А как сделать красное подчеркивание и куда это прописывать?*/
+.header-site-navigation a:link,
+.header-basket a:link {
+    
+}
+
+.header-site-navigation a:visited,
+.header-basket a:visited {
+
+}
+
+.header-site-navigation a:hover,
+.header-basket a:hover,
+.header-site-navigation a:focus,
+.header-basket a:focus {
+    color: #fb565a;
+}
+
+.header-site-navigation a:active,
+.header-basket a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
 /*===========================Close. Css for Section class="main-heder-navigation"=====*/
 
 
 
 /*===========================Open. Css for Section class="main-slider"================*/
+.slide span {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #000000;
+    
+    background-color: #eeeeee;
+}
+
+.btn {
+    display: block;
+    width: 160px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: #fb565a;
+    border-radius: 3px;
+    border: none; 
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #e74246;
+}
+
+.btn:active {
+    /*Параметр тени взял с зеплина а как взять с фотошопа?*/
+    box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-slide {
+    width: 240px;
+}
 /*===========================Close. Css for Section class="main-slider"===============*/
 
 
 
-/*===========================Open. Css for Section class="advantages"=================*/
-/*===========================Close. Css for Section class="advantages"================*/
+/*===========================Open. Css for Section class="service"====================*/
+.service-item {
+    list-style: none;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    
+    background-color: #ffffff;
+}
+
+.btn-green {
+    background-color: #00ca74;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+    background-color: #00bc6c;
+}
+
+.btn-green:active {
+    
+}
+
+.btn-yellow {
+    background-color: #efc849;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    background-color: #eab534;
+}
+
+.btn-yellow:active {
+    
+}
+/*===========================Close. Css for Section class="service"===================*/
 
 
 
-/*===========================Open. Css for Section class="progress"===================*/
-/*===========================Close. Css for Section class="progress"==================*/
+/*===========================Open. Css for Section class="studio"=====================*/
+.studio-description p:nth-child(1) {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #000000;
+        
+    background-color: #ffffff;
+}
+
+.progress-left span,
+.header-table {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+        
+    background-color: #ffffff;
+}
+
+.table th {
+    font-size: 45px;
+    line-height: 10.6px;
+    font-weight: 700;
+    color: #000000;
+            
+    background-color: #ffffff;
+}
+
+.table-text {
+    font-size: 22.5px;
+    
+    vertical-align: super;
+}
+
+.table td {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #283136;
+            
+    background-color: #ffffff;
+}
+/*===========================Close. Css for Section class="studio"====================*/
 
 
 
 /*===========================Open. Css for Section class="partner"====================*/
+.example-title {
+    list-style: none;
+}
+
+
+.partner-button {
+    opacity: 0.2;
+}
+
+.partner-button:hover,
+.partner-button:focus {
+    opacity: 1;
+}
+
+
+.partner-button:active {
+    opacity: 0.1;
+}
 /*===========================Close. Css for Section class="partner"===================*/
 
 
 
 /*===========================Open. Css for Section class="contacts"===================*/
+.address p:nth-child(1) {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+            
+    background-color: #ffffff;
+}
+
+.address p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+
+    background-color: #ffffff;
+}
+
+.btn-message {
+    width: 219px;
+}
 /*===========================Close. Css for Section class="contacts"==================*/
 
 
 
 /*===========================Open. Css for Footer class="footer-social"===============*/
+.footer-social-right h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000;
+               
+    background-color: #ffffff;
+}
+
+.footer-social-right p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #444444;
+               
+    background-color: #ffffff;
+}
+
 /*===========================Close. Css for Footer class="footer-social"==============*/
+
+
+
+/*===========================Open. Css for Section class="modal modal-login"==========*/
+.modal-header {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #000000;
+               
+    background-color: #ffffff;
+}
+
+.feedback p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #000000;
+               
+    background-color: #ffffff;
+}
+/*Не понимаю как ниже цвет теста настроить при наведении, фокусе....и вообще я правильно это сделал,.*/
+.feedback input[type="text"],
+.feedback input[type="email"],
+.feedback textarea[type="message"] {
+    box-sizing: border-box;
+
+    font: inherit;
+    font-size: 16px;
+    line-height: 18px;
+  
+    background-color: #ffffff;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+
+.feedback input[type="text"],
+.feedback input[type="email"] {
+    width: 360px;
+    min-height: 50px;
+
+    padding-left: 15px;
+}
+
+.feedback textarea[type="message"] {
+    width: 760px;
+    min-height: 118px;
+
+    padding-left: 15px;
+    padding-top: 15px; 
+}
+
+.feedback input:focus,
+.feedback textarea:focus {
+    border-color: #000000;
+}
+
+.feedback input:hover,
+.feedback textarea:hover {
+    border-color: #b4b9bb;
+   
+}
+/* Не понимаю как ниже сделать рамки красным*/
+.feedback input:invalid,
+.feedback textarea:invalid {
+    color: #e74246;
+    border-color: #e74246;
+}
+
+.modal-btn {
+    width: 260px;
+}
+/*===========================Close. Css for Section class="modal modal-login"=========*/
+
+
+  
+ 
+
+/*===========================Open Css for catalog.html================================*/
+/*===========================Open. Css for header class="main-header"=================*/
+.catalog-title h1 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #000000;
+    
+    background-color: #eeeeee;
+}
+/*===========================Close. Css for header class="main-header"================*/
+
+
+
+/*===========================Open. Css for section class="main-filter"================*/
+.main-filter fieldset {
+    border: none;
+}
+
+.main-filter legend {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #283136;
+    text-transform: uppercase;
+               
+    background-color: #ffffff;
+}
+
+.main-filter ul {
+    list-style: none;
+    
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #283136;
+                   
+    background-color: #ffffff;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+    color: #000000;
+}
+
+.filter-input:disabled + label {
+    color: #283136;
+
+    opacity: 0.3;
+}
+
+.filter-button {
+    width: 260px;
+
+    color: #000000;
+
+    background-color: #eeeeee;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #dfdfdf;
+}
+
+.filter-button:active {
+    box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/*===========================Close. Css for section class="main-filter"===============*/
+
+
+
+
+/*===========================Open. Css for section class="catalog-additional-filters"=*/
+.additional-filters p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+}
+
+.sort {
+    list-style: none;
+}
+
+.sort-btn {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    
+    border: none;
+    background-color: white;
+}
+
+.sort-btn-checked {
+    color: rgba(0, 0, 0, 1);
+}
+
+.sort-btn:hover,
+.sort-btn:focus {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.sort-btn:active {
+    color: rgba(0, 0, 0, 1);
+}
+
+.catalog-item {
+    width: 360px;
+}
+
+.catalog-item:hover,
+.catalog-item:focus {
+    border-width: 1px;
+    border-color: rgb(77, 77, 77);
+    box-shadow: 0px 6px 15px 0px rgba(0, 1, 1, 0.25);
+}
+
+.catalog ul {
+    list-style: none;
+}
+
+.catalog-btn {
+    width: 200px;
+}
+
+.catalog-description {
+    width: 360px;
+
+    background-color: #eeeeee;
+}
+
+.catalog-description a:nth-child(1) {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    
+    background-color: #eeeeee;
+}
+
+.catalog-description p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+    
+    
+    background-color: #eeeeee;
+}
+.catalog-paginator span,
+.catalog-paginator a {
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: none; 
+}
+/*===========================Close. Css for section class="catalog-additional-filters"=*/
+
