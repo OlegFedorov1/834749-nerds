@@ -15,6 +15,29 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 
 /*===========================Open. Css for Main class="container======================*/
@@ -28,6 +51,11 @@ a {
 }
 
 .main-header-navigation {
+    display: flex;
+
+    margin-bottom: 18px;
+    padding-top: 49px;
+
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
@@ -35,6 +63,29 @@ a {
     text-transform: uppercase;
 
     background-color: #eeeeee;
+}
+
+.main-header-navigation a,
+.main-header-navigation ul {
+    padding: 0; 
+}
+
+.navigation-logo {
+    margin-right: 202px;
+
+    width: 160px;
+}
+
+.header-site-navigation {
+    width: 440px;
+}
+
+.header-basket {
+    margin-left: auto;
+
+    width: 115px;
+
+    text-align: right;
 }
 
 .header-site-navigation,
@@ -75,6 +126,13 @@ a {
 
 
 /*===========================Open. Css for Section class="main-slider"================*/
+.main-slider {
+    margin-bottom: 80px;
+
+    min-height: 414px;
+}
+
+
 .slide span {
     font-size: 55px;
     line-height: 55px;
@@ -121,11 +179,40 @@ a {
 
 
 /*===========================Open. Css for Section class="service"====================*/
+.service {
+    margin-bottom: 40px;
+    padding-bottom: 80px;
+
+    border-bottom: 3px solid #eeeeee;  
+}
+
+.service ul {
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.service-list {
+    display: flex;
+}
+
+.service-list li:nth-child(1),
+.service-list li:nth-child(2) {
+    margin-right: 100px;
+}
+
 .service-item {
+    width: 300px;
+
     list-style: none;
 }
 
+.service-item img {
+    vertical-align: bottom;
+}
+
 .service-item h3 {
+    margin-bottom: 16px;
+
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
@@ -133,6 +220,12 @@ a {
     text-transform: uppercase;
     
     background-color: #ffffff;
+}
+
+.service-item p {
+    margin-bottom: 33px;
+
+    width: 260px;
 }
 
 .btn-green {
@@ -165,13 +258,54 @@ a {
 
 
 /*===========================Open. Css for Section class="studio"=====================*/
+.studio {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 28px;
+}
+
+.studio-description {
+    padding-top: 34px;
+
+    width: 660px;
+}
+
+.img-studio {
+    width: 360px;
+}
+
+.studio-description p {
+    margin: 0 auto;
+}
+
 .studio-description p:nth-child(1) {
+    margin-bottom: 32px;
+
     font-size: 45px;
     line-height: 45px;
     font-weight: 500;
     color: #000000;
         
     background-color: #ffffff;
+}
+/*===========================Close. Css for Section class="studio"====================*/
+
+
+
+/*===========================Open. Css for Section class="progress"===================*/
+.progress {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 73px;
+    border-bottom: 3px solid #eeeeee;
+
+    margin-bottom: 47px;
+}
+
+.progress-left {
+    width: 660px;
 }
 
 .progress-left span,
@@ -185,7 +319,25 @@ a {
     background-color: #ffffff;
 }
 
+.progress-left span {
+    margin-bottom: 20px;
+}
+
+.progress-right {
+    width: 360px;
+}
+
+.table caption {
+    margin-bottom: 48px;
+}
+
 .table th {
+    padding-bottom: 33px;
+
+    width: 120px;
+
+    text-align: left;
+
     font-size: 45px;
     line-height: 10.6px;
     font-weight: 700;
@@ -201,6 +353,10 @@ a {
 }
 
 .table td {
+    width: 120px;
+
+    text-align: left;
+
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
@@ -208,15 +364,32 @@ a {
             
     background-color: #ffffff;
 }
-/*===========================Close. Css for Section class="studio"====================*/
+/*===========================Close. Css for Section class="progress"==================*/
 
 
 
 /*===========================Open. Css for Section class="partner"====================*/
+.partner { 
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+
+    border-bottom: 3px solid #eeeeee;
+}
+
 .example-title {
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+
     list-style: none;
 }
 
+.partner-button {
+    width: 260px;
+
+
+}
 
 .partner-button {
     opacity: 0.2;
